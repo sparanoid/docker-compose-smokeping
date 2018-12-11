@@ -81,9 +81,9 @@ title = southamerica-east1 (São Paulo, Brazil)
 host = southamerica-east1-gce.cloudharmony.net
 
 +++ gce-us-central1
-menu = gce-s-central1
+menu = gce-us-central1
 title = us-central1 (Council Bluffs, Iowa, USA)
-host = s-central1-gce.cloudharmony.net
+host = us-central1-gce.cloudharmony.net
 
 +++ gce-us-east1
 menu = gce-us-east1
