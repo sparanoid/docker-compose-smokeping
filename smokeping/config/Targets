@@ -103,12 +103,7 @@ host = us-west1-gce.cloudharmony.net
 +++ gce-us-west2
 menu = gce-us-west2
 title = us-west2 (Los Angeles, California, USA)
-host = us-west2-gce.cloudharmony.net
-
-+++ gce-global
-menu = gce-global
-title = global (Global HTTP Load Balancer)
-host = global-gce.cloudharmony.net
+host = us-west2-b-gce.cloudharmony.net
 
 ++ AWSEC2
 menu = EC2
@@ -208,6 +203,180 @@ host = dynamodb.cn-northwest-1.amazonaws.com.cn
 menu = ec2-us-gov-west-1
 title = us-gov-west-1 AWS GovCloud (US-West)
 host = dynamodb.us-gov-west-1.amazonaws.com
+
+++ AzureVM
+menu = Azure VM
+title = Azure Virtual Machines
+
++++ us-westcentral
+menu = us-westcentral
+title = us-westcentral
+host = us-westcentral.azure.cloudharmony.net
+
++++ us-west2-3
+menu = us-west2-3
+title = us-west2-3
+host = us-west2-3.azure.cloudharmony.net
+
++++ us-west
+menu = us-west
+title = us-west
+host = us-west.azure.cloudharmony.net
+
++++ japan-east
+menu = japan-east
+title = japan-east
+host = japan-east.azure.cloudharmony.net
+
++++ india-south
+menu = india-south
+title = india-south
+host = india-south.azure.cloudharmony.net
+
++++ australia-southeast
+menu = australia-southeast
+title = australia-southeast
+host = australia-southeast.azure.cloudharmony.net
+
++++ asia-southeast
+menu = asia-southeast
+title = asia-southeast
+host = asia-southeast.azure.cloudharmony.net
+
++++ uk-west
+menu = uk-west
+title = uk-west
+host = uk-west.azure.cloudharmony.net
+
++++ france-central
+menu = france-central
+title = france-central
+host = france-central.azure.cloudharmony.net
+
++++ india-west
+menu = india-west
+title = india-west
+host = india-west.azure.cloudharmony.net
+
++++ asia-east
+menu = asia-east
+title = asia-east
+host = asia-east.azure.cloudharmony.net
+
++++ us-southcentral
+menu = us-southcentral
+title = us-southcentral
+host = us-southcentral.azure.cloudharmony.net
+
++++ us-west2-1
+menu = us-west2-1
+title = us-west2-1
+host = us-west2-1.azure.cloudharmony.net
+
++++ us-west2-2
+menu = us-west2-2
+title = us-west2-2
+host = us-west2-2.azure.cloudharmony.net
+
++++ us-east2
+menu = us-east2
+title = us-east2
+host = us-east2.azure.cloudharmony.net
+
++++ us-east
+menu = us-east
+title = us-east
+host = us-east.azure.cloudharmony.net
+
++++ australia-central2
+menu = australia-central2
+title = australia-central2
+host = australia-central2.azure.cloudharmony.net
+
++++ canada-central
+menu = canada-central
+title = canada-central
+host = canada-central.azure.cloudharmony.net
+
++++ korea-south
+menu = korea-south
+title = korea-south
+host = korea-south.azure.cloudharmony.net
+
++++ china-north2
+menu = china-north2
+title = china-north2
+host = avchinanorth2.azure.cloudharmony.net
+
++++ canada-east
+menu = canada-east
+title = canada-east
+host = canada-east.azure.cloudharmony.net
+
++++ china-north
+menu = china-north
+title = china-north
+host = avchinanorth.azure.cloudharmony.net
+
++++ eu-north
+menu = eu-north
+title = eu-north
+host = eu-north.azure.cloudharmony.net
+
++++ australia-central
+menu = australia-central
+title = australia-central
+host = australia-central.azure.cloudharmony.net
+
++++ us-northcentral
+menu = us-northcentral
+title = us-northcentral
+host = us-northcentral.azure.cloudharmony.net
+
++++ korea-central
+menu = korea-central
+title = korea-central
+host = korea-central.azure.cloudharmony.net
+
++++ us-central
+menu = us-central
+title = us-central
+host = us-central.azure.cloudharmony.net
+
++++ brazil-south
+menu = brazil-south
+title = brazil-south
+host = brazil-south.azure.cloudharmony.net
+
++++ eu-west
+menu = eu-west
+title = eu-west
+host = eu-west.azure.cloudharmony.net
+
++++ france-south
+menu = france-south
+title = france-south
+host = france-south.azure.cloudharmony.net
+
++++ india-central
+menu = india-central
+title = india-central
+host = india-central.azure.cloudharmony.net
+
++++ australia-east
+menu = australia-east
+title = australia-east
+host = australia-east.azure.cloudharmony.net
+
++++ japan-west
+menu = japan-west
+title = japan-west
+host = japan-west.azure.cloudharmony.net
+
++++ uk-south
+menu = uk-south
+title = uk-south
+host = uk-south.azure.cloudharmony.net
 
 ++ Rackspace
 menu = VCS
