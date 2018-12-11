@@ -1,0 +1,516 @@
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Network Latency Grapher
+remark = Welcome to the SmokePing website of nio2. \
+         Here you will learn all about the latency of our network.
+
++ CloudServers
+menu = Cloud Servers
+title = Cloud Servers
+
+++ GoogleCloudEngine
+menu = GCE
+title = Google Cloud Engine
+
++++ gce-asia-east1
+menu = gce-asia-east1
+title = asia-east1 (Changhua County, Taiwan)
+host = asia-east1-gce.cloudharmony.net
+
++++ gce-asia-east2
+menu = gce-asia-east2
+title = asia-east2 (Hong Kong)
+host = asia-east2-gce.cloudharmony.net
+
++++ gce-asia-northeast1
+menu = gce-asia-northeast1
+title = asia-northeast1 (Tokyo, Japan)
+host = asia-northeast1-gce.cloudharmony.net
+
++++ gce-asia-south1
+menu = gce-asia-south1
+title = asia-south1 (Mumbai, India)
+host = asia-south1-gce.cloudharmony.net
+
++++ gce-asia-southeast1
+menu = gce-asia-southeast1
+title = asia-southeast1 (Jurong West, Singapore)
+host = asia-southeast1-gce.cloudharmony.net
+
++++ gce-australia-southeast1
+menu = gce-australia-southeast1
+title = australia-southeast1 (Sydney, Australia)
+host = australia-southeast1-gce.cloudharmony.net
+
++++ gce-europe-north1
+menu = gce-europe-north1
+title = europe-north1 (Hamina, Finland)
+host = europe-north1-gce.cloudharmony.net
+
++++ gce-europe-west1
+menu = gce-europe-west1
+title = europe-west1 (St. Ghislain, Belgium)
+host = europe-west1-gce.cloudharmony.net
+
++++ gce-europe-west2
+menu = gce-europe-west2
+title = europe-west2 (London, England, UK)
+host = europe-west2-gce.cloudharmony.net
+
++++ gce-europe-west3
+menu = gce-europe-west3
+title = europe-west3 (Frankfurt, Germany)
+host = europe-west3-gce.cloudharmony.net
+
++++ gce-europe-west4
+menu = gce-europe-west4
+title = europe-west4 (Eemshaven, Netherlands)
+host = europe-west4-gce.cloudharmony.net
+
++++ gce-northamerica-northeast1
+menu = gce-northamerica-northeast1
+title = northamerica-northeast1 (Montréal, Québec, Canada)
+host = northamerica-northeast1-gce.cloudharmony.net
+
++++ gce-southamerica-east1
+menu = gce-southamerica-east1
+title = southamerica-east1 (São Paulo, Brazil)
+host = southamerica-east1-gce.cloudharmony.net
+
++++ gce-us-central1
+menu = gce-s-central1
+title = us-central1 (Council Bluffs, Iowa, USA)
+host = s-central1-gce.cloudharmony.net
+
++++ gce-us-east1
+menu = gce-us-east1
+title = us-east1 (Moncks Corner, South Carolina, USA)
+host = us-east1-gce.cloudharmony.net
+
++++ gce-us-east4
+menu = gce-us-east4
+title = us-east4 (Ashburn, Northern Virginia, USA)
+host = us-east4-gce.cloudharmony.net
+
++++ gce-us-west1
+menu = gce-us-west1
+title = us-west1 (The Dalles, Oregon, USA)
+host = us-west1-gce.cloudharmony.net
+
++++ gce-us-west2
+menu = gce-us-west2
+title = us-west2 (Los Angeles, California, USA)
+host = us-west2-gce.cloudharmony.net
+
++++ gce-global
+menu = gce-global
+title = global (Global HTTP Load Balancer)
+host = global-gce.cloudharmony.net
+
+++ AWSEC2
+menu = EC2
+title = Amazon Web Services EC2
+
++++ ec2-us-east-1
+menu = ec2-us-east-1
+title = us-east-1 US East (N. Virginia)
+host = dynamodb.us-east-1.amazonaws.com
+
++++ ec2-us-east-2
+menu = ec2-us-east-2
+title = us-east-2 US East (Ohio)
+host = dynamodb.us-east-2.amazonaws.com
+
++++ ec2-us-west-1
+menu = ec2-us-west-1
+title = us-west-1 US West (N. California)
+host = dynamodb.us-west-1.amazonaws.com
+
++++ ec2-us-west-2
+menu = ec2-us-west-2
+title = us-west-2 US West (Oregon)
+host = dynamodb.us-west-2.amazonaws.com
+
++++ ec2-ca-central-1
+menu = ec2-ca-central-1
+title = ca-central-1 Canada (Central)
+host = dynamodb.ca-central-1.amazonaws.com
+
++++ ec2-eu-central-1
+menu = ec2-eu-central-1
+title = eu-central-1 EU (Frankfurt)
+host = dynamodb.eu-central-1.amazonaws.com
+
++++ ec2-eu-west-1
+menu = ec2-eu-west-1
+title = eu-west-1 EU (Ireland)
+host = dynamodb.eu-west-1.amazonaws.com
+
++++ ec2-eu-west-2
+menu = ec2-eu-west-2
+title = eu-west-2 EU (London)
+host = dynamodb.eu-west-2.amazonaws.com
+
++++ ec2-eu-west-3
+menu = ec2-eu-west-3
+title = eu-west-3 EU (Paris)
+host = dynamodb.eu-west-3.amazonaws.com
+
++++ ec2-ap-northeast-1
+menu = ec2-ap-northeast-1
+title = ap-northeast-1 Asia Pacific (Tokyo)
+host = dynamodb.ap-northeast-1.amazonaws.com
+
++++ ec2-ap-northeast-2
+menu = ec2-ap-northeast-2
+title = ap-northeast-2 Asia Pacific (Seoul)
+host = dynamodb.ap-northeast-2.amazonaws.com
+
++++ ec2-ap-northeast-3
+menu = ec2-ap-northeast-3
+title = ap-northeast-3 Asia Pacific (Osaka-Local)
+host = dynamodb.ap-northeast-3.amazonaws.com
+
++++ ec2-ap-southeast-1
+menu = ec2-ap-southeast-1
+title = ap-southeast-1 Asia Pacific (Singapore)
+host = dynamodb.ap-southeast-1.amazonaws.com
+
++++ ec2-ap-southeast-2
+menu = ec2-ap-southeast-2
+title = ap-southeast-2 Asia Pacific (Sydney)
+host = dynamodb.ap-southeast-2.amazonaws.com
+
++++ ec2-ap-south-1
+menu = ec2-ap-south-1
+title = ap-south-1 Asia Pacific (Mumbai)
+host = dynamodb.ap-south-1.amazonaws.com
+
++++ ec2-sa-east-1
+menu = ec2-sa-east-1
+title = sa-east-1 South America (São Paulo)
+host = dynamodb.sa-east-1.amazonaws.com
+
++++ ec2-cn-north-1
+menu = ec2-cn-north-1
+title = cn-north-1 China (Beijing)
+host = dynamodb.cn-north-1.amazonaws.com.cn
+
++++ ec2-cn-north-2
+menu = ec2-cn-north-2
+title = cn-north-2 China (Ningxia)
+host = dynamodb.cn-northwest-1.amazonaws.com.cn
+
++++ ec2-us-gov-west-1
+menu = ec2-us-gov-west-1
+title = us-gov-west-1 AWS GovCloud (US-West)
+host = dynamodb.us-gov-west-1.amazonaws.com
+
+++ Rackspace
+menu = VCS
+title = Rackspace Virtual Cloud Servers
+
++++ dfw
+menu = dfw
+title = Dallas-Fort Worth (DFW)
+host = dfw.speedtest.rackspace.com
+
++++ ord
+menu = ord
+title = Chicago (ORD)
+host = ord.speedtest.rackspace.com
+
++++ iad
+menu = iad
+title = Northern Virginia (IAD)
+host = iad.speedtest.rackspace.com
+
++++ lon
+menu = lon
+title = London (LON)
+host = lon.speedtest.rackspace.com
+
++++ syd
+menu = syd
+title = Sydney (SYD)
+host = syd.speedtest.rackspace.com
+
++++ hkg
+menu = hkg
+title = Hong Kong (HKG)
+host = hkg.speedtest.rackspace.com
+
+++ Vultr
+menu = Vultr
+title = Vultr
+
++++ fra-de
+menu = fra-de
+title = Frankfurt, DE
+host = fra-de-ping.vultr.com
+
++++ par-fr
+menu = par-fr
+title = Paris, France
+host = par-fr-ping.vultr.com
+
++++ ams-nl
+menu = ams-nl
+title = Amsterdam, NL
+host = ams-nl-ping.vultr.com
+
++++ lon-gb
+menu = lon-gb
+title = London, UK
+host = lon-gb-ping.vultr.com
+
++++ sgp
+menu = sgp
+title = Singapore
+host = sgp-ping.vultr.com
+
++++ nj-us
+menu = nj-us
+title = New York (NJ)
+host = nj-us-ping.vultr.com
+
++++ hnd-jp
+menu = hnd-jp
+title = Tokyo, Japan
+host = hnd-jp-ping.vultr.com
+
++++ il-us
+menu = il-us
+title = Chicago, Illinois
+host = il-us-ping.vultr.com
+
++++ ga-us
+menu = ga-us
+title = Atlanta, Georgia
+host = ga-us-ping.vultr.com
+
++++ fl-us
+menu = fl-us
+title = Miami, Florida
+host = fl-us-ping.vultr.com
+
++++ wa-us
+menu = wa-us
+title = Seattle, Washington
+host = wa-us-ping.vultr.com
+
++++ tx-us
+menu = tx-us
+title = Dallas, Texas
+host = tx-us-ping.vultr.com
+
++++ sjo-ca-us
+menu = sjo-ca-us
+title = Silicon Valley, California
+host = sjo-ca-us-ping.vultr.com
+
++++ lax-ca-us
+menu = lax-ca-us
+title = Los Angeles, California
+host = lax-ca-us-ping.vultr.com
+
++++ syd-au
+menu = syd-au
+title = Sydney, Australia
+host = syd-au-ping.vultr.com
+
+++ Linode
+menu = Linode
+title = Linode
+
++++ newark
+menu = newark
+host = speedtest.newark.linode.com
+
++++ atlanta
+menu = atlanta
+host = speedtest.atlanta.linode.com
+
++++ dallas
+menu = dallas
+host = speedtest.dallas.linode.com
+
++++ fremont
+menu = fremont
+host = speedtest.fremont.linode.com
+
++++ frankfurt
+menu = frankfurt
+host = speedtest.frankfurt.linode.com
+
++++ london
+menu = london
+host = speedtest.london.linode.com
+
++++ singapore
+menu = singapore
+host = speedtest.singapore.linode.com
+
++++ tokyo2
+menu = tokyo2
+host = speedtest.tokyo2.linode.com
+
++++ tokyo
+menu = tokyo
+host = speedtest.tokyo.linode.com
+
++ InternetSites
+
+menu = Internet Sites
+title = Internet Sites
+
+++ Facebook
+menu = Facebook
+title = Facebook
+host = facebook.com
+
+++ Youtube
+menu = YouTube
+title = YouTube
+host = youtube.com
+
+++ GoogleSearch
+menu = Google
+title = google.com
+host = google.com
+
+++ sparanoid_com
+host = sparanoid.com
+
++ Europe
+
+menu = Europe
+title = European Connectivity
+
+++ Germany
+
+menu = Germany
+title = The Fatherland
+
++++ TelefonicaDE
+
+menu = Telefonica DE
+title = Telefonica DE
+host = www.telefonica.de
+
+++ Switzerland
+
+menu = Switzerland
+title = Switzerland
+
++++ CernIXP
+
+menu = CernIXP
+title = Cern Internet eXchange Point
+host = cixp.web.cern.ch
+
++++ SBB
+
+menu = SBB
+title = SBB
+host = www.sbb.ch/en
+
+++ UK
+
+menu = United Kingdom
+title = United Kingdom
+
++++ IBNorwich
+
+menu = al.ktz.me
+title = IBs Residence
+host = al.ktz.me
+
++++ CambridgeUni
+
+menu = Cambridge
+title = Cambridge
+host = cam.ac.uk
+
++++ UEA
+
+menu = UEA
+title = UEA
+host = www.uea.ac.uk
+
++ USA
+
+menu = North America
+title =North American Connectivity
+
+++ MIT
+
+menu = MIT
+title = Massachusetts Institute of Technology Webserver
+host = web.mit.edu
+
+++ IU
+
+menu = IU
+title = Indiana University
+host = www.indiana.edu
+
+++ UCB
+
+menu = U. C. Berkeley
+title = U. C. Berkeley Webserver
+host = www.berkley.edu
+
+++ UCSD
+
+menu = U. C. San Diego
+title = U. C. San Diego Webserver
+host = www.ucsd.edu
+
+++ Sun
+
+menu = Sun Microsystems
+title = Sun Microsystems Webserver
+host = www.oracle.com/us/sun
+
++ DNS
+menu = DNS
+title = DNS
+
+++ GoogleDNS1
+menu = Google DNS 1
+title = Google DNS 8.8.8.8
+host = 8.8.8.8
+
+++ GoogleDNS2
+menu = Google DNS 2
+title = Google DNS 8.8.4.4
+host = 8.8.4.4
+
+++ OpenDNS1
+menu = OpenDNS1
+title = OpenDNS1
+host = 208.67.222.222
+
+++ OpenDNS2
+menu = OpenDNS2
+title = OpenDNS2
+host = 208.67.220.220
+
+++ AliyunDNS1
+menu = Aliyun DNS 1
+title = Aliyun DNS 1
+host = 223.5.5.5
+
+++ AliyunDNS2
+menu = Aliyun DNS 2
+title = Aliyun DNS 2
+host = 223.6.6.6
+
+++ CloudFlareDNS
+menu = CloudFlare DNS
+title = CloudFlare DNS
+host = 1.1.1.1
