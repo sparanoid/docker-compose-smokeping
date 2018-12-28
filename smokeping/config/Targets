@@ -531,6 +531,70 @@ host = speedtest.tokyo2.linode.com
 menu = tokyo
 host = speedtest.tokyo.linode.com
 
+++ DigitalOcean
+menu = DigitalOcean
+title = DigitalOcean
+
++++ do-nyc1
+menu = do-nyc1
+title = do-nyc1
+host = speedtest-nyc1.digitalocean.com
+
++++ do-nyc2
+menu = do-nyc2
+title = do-nyc2
+host = speedtest-nyc2.digitalocean.com
+
++++ do-nyc3
+menu = do-nyc3
+title = do-nyc3
+host = speedtest-nyc3.digitalocean.com
+
++++ do-ams2
+menu = do-ams2
+title = do-ams2
+host = speedtest-ams2.digitalocean.com
+
++++ do-ams3
+menu = do-ams3
+title = do-ams3
+host = speedtest-ams3.digitalocean.com
+
++++ do-sfo1
+menu = do-sfo1
+title = do-sfo1
+host = speedtest-sfo1.digitalocean.com
+
++++ do-sfo2
+menu = do-sfo2
+title = do-sfo2
+host = speedtest-sfo2.digitalocean.com
+
++++ do-sgp1
+menu = do-sgp1
+title = do-sgp1
+host = speedtest-sgp1.digitalocean.com
+
++++ do-lon1
+menu = do-lon1
+title = do-lon1
+host = speedtest-lon1.digitalocean.com
+
++++ do-fra1
+menu = do-fra1
+title = do-fra1
+host = speedtest-fra1.digitalocean.com
+
++++ do-tor1
+menu = do-tor1
+title = do-tor1
+host = speedtest-tor1.digitalocean.com
+
++++ do-blr1
+menu = do-blr1
+title = do-blr1
+host = speedtest-blr1.digitalocean.com
+
 + InternetSites
 
 menu = Internet Sites
