@@ -3,3 +3,7 @@
 +FPing
 
 binary = /usr/sbin/fping
+
++AnotherSSH
+
+forks = 5
