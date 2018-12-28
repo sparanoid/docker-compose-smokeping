@@ -11,7 +11,8 @@ services:
     volumes:
       - ./smokeping/config:/config
       - ./smokeping/data:/data
-      - ./smokeping/etc-config:/etc/smokeping/config
+      - ./smokeping/etc/config:/etc/smokeping/config
+      - ./smokeping/etc/ssmtp.conf:/etc/ssmtp/ssmtp.conf
     ports:
       - 8099:80
     mem_limit: 4096m
