@@ -2,7 +2,7 @@
 
 owner    = nio2
 contact  = s@nio2.com
-mailhost = my.mail.host
+mailhost = localhost
 # NOTE: do not put the Image Cache below cgi-bin
 # since all files under cgi-bin will be executed ... this is not
 # good for images.
