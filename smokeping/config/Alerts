@@ -2,13 +2,6 @@
 to = alertee@address.somewhere
 from = smokealert@company.xy
 
-+lossdetect
-type = loss
-# in percent
-pattern = ==0%,==0%,==0%,==0%,>20%,>20%,>20%
-edgetrigger = yes
-comment = suddenly there is packet loss
-
 +rttbadstart
 type = rtt
 # in milliseconds
@@ -23,9 +16,23 @@ pattern = <200,<200,<200,<200,<200,<200,<200,>250,>250,>250
 edgetrigger = yes
 comment = checks for 10 periods (10 * step) where the rtt is >250ms over time
 
++lossdetect
+type = loss
+# in percent
+pattern = ==0%,==0%,==0%,==0%,>20%,>20%,>20%
+edgetrigger = yes
+comment = suddenly there is packet loss
+
++highloss
+type = loss
+# in percent
+pattern = >80%,>80%,>80%
+edgetrigger = yes
+comment = checks for 3 periods (3 * step) of >80% loss
+
 +hostdown
 type = loss
 # in percent
-pattern = >60%
+pattern = ==100%
 edgetrigger = yes
-comment = checks for one period (1 * step) of >60% loss
+comment = checks for one period (1 * step) of 100% loss
