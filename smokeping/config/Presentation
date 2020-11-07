@@ -35,7 +35,7 @@ format = Median RTT %f seconds
 + overview
 
 width = 600
-height = 50
+height = 100
 range = 12h
 
 + detail
