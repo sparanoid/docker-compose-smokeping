@@ -495,6 +495,38 @@ host = syd-au-ping.vultr.com
 menu = Linode
 title = Linode
 
++++ tokyo
+menu = tokyo
+host = speedtest.tokyo.linode.com
+
++++ tokyo2
+menu = tokyo2
+host = speedtest.tokyo2.linode.com
+
++++ mumbai1
+menu = mumbai1
+host = speedtest.mumbai1.linode.com
+
++++ singapore
+menu = singapore
+host = speedtest.singapore.linode.com
+
++++ sydney
+menu = syd1
+host = speedtest.syd1.linode.com
+
++++ frankfurt
+menu = frankfurt
+host = speedtest.frankfurt.linode.com
+
++++ london
+menu = london
+host = speedtest.london.linode.com
+
++++ toronto
+menu = toronto1
+host = speedtest.toronto1.linode.com
+
 +++ newark
 menu = newark
 host = speedtest.newark.linode.com
@@ -510,26 +542,6 @@ host = speedtest.dallas.linode.com
 +++ fremont
 menu = fremont
 host = speedtest.fremont.linode.com
-
-+++ frankfurt
-menu = frankfurt
-host = speedtest.frankfurt.linode.com
-
-+++ london
-menu = london
-host = speedtest.london.linode.com
-
-+++ singapore
-menu = singapore
-host = speedtest.singapore.linode.com
-
-+++ tokyo2
-menu = tokyo2
-host = speedtest.tokyo2.linode.com
-
-+++ tokyo
-menu = tokyo
-host = speedtest.tokyo.linode.com
 
 ++ DigitalOcean
 menu = DigitalOcean
@@ -570,6 +582,11 @@ menu = do-sfo2
 title = do-sfo2
 host = speedtest-sfo2.digitalocean.com
 
++++ do-sfo3
+menu = do-sfo3
+title = do-sfo3
+host = speedtest-sfo3.digitalocean.com
+
 +++ do-sgp1
 menu = do-sgp1
 title = do-sgp1
@@ -603,17 +620,27 @@ title = Internet Sites
 ++ Facebook
 menu = Facebook
 title = Facebook
-host = facebook.com
+host = www.facebook.com
 
 ++ Youtube
 menu = YouTube
 title = YouTube
-host = youtube.com
+host = www.youtube.com
 
 ++ GoogleSearch
 menu = Google
-title = google.com
-host = google.com
+title = Google
+host = www.google.com
+
+++ Bing
+menu = Bing
+title = Bing
+host = www.bing.com
+
+++ Baidu
+menu = Baidu
+title = Baidu
+host = www.baidu.com
 
 ++ sparanoid_com
 host = sparanoid.com
@@ -747,3 +774,13 @@ host = 223.6.6.6
 menu = CloudFlare DNS
 title = CloudFlare DNS
 host = 1.1.1.1
+
+++ 114_1
+menu = 114 DNS 1
+title = 114 DNS 1
+host = 114.114.114.114
+
+++ 114_2
+menu = 114 DNS 2
+title = 114 DNS 2
+host = 114.114.115.115
